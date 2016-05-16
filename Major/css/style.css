@@ -15,19 +15,27 @@
  
 
 
-
+#navbar{
+position:absolute;
+width:1440px;
+height:65px;
+background:url(../img/navbar.png);
+z-index: 98;
+left: 0px;
+top: 1px;
+}
 
 #logo h1 {
 	position: absolute;
 	border: 0;
-	width: 400px;
-	height: 300px;
+	width: 370px;
+	height: 65px;
 	margin: 0;
 	padding: 0;
 	background: url(../img/Logo.png) no-repeat 0 0;
 	z-index: 99;
-	top: 24px;
-	left: 19px;
+	top: 0px;
+	left: 0px;
 }
 
 
