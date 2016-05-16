@@ -12,158 +12,16 @@
 	z-index: 100;
 }
  */
-
-#About {
-	font-weight: bold;
-	position: absolute;
-	top: 100px;
-	display: inline-block;
-	width: 100px;
-	padding: 8px;
-	color: #333333;
-	border: 3px solid #333333;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	-webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
-	transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-	height: 11px;
-	left: 20px;
-}
-#About:hover,
-#About:active {
-  background-color: #fff; /* fallback */
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; /* fallback */
-  border-color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-
-#contact {
-	font-weight: bold;
-	position: absolute;
-	top: 102px;
-	display: inline-block;
-	width: 100px;
-	padding: 8px;
-	color: #333333;
-	border: 3px solid #333333;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	-webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
-	transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-	height: 11px;
-	left: 20px;
-}
-#contact:hover,
-#contact:active {
-  background-color: #fff; /* fallback */
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; /* fallback */
-  border-color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
+ 
 
 
-#shop {
-	font-weight: bold;
-	position: absolute;
-	top: 102px;
-	display: inline-block;
-	width: 100px;
-	padding: 8px;
-	color: #333333;
-	border: 3px solid #333333;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	-webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
-	transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-	height: 11px;
-	left: 434px;
-}
-#shop:hover,
-#shop:active {
-  background-color: #fff; /* fallback */
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; /* fallback */
-  border-color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
 
-#terms {
-	font-weight: bold;
-	position: absolute;
-	top: 102px;
-	display: inline-block;
-	width: 100px;
-	padding: 8px;
-	color: #333333;
-	border: 3px solid #333333;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	-webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
-	transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-	height: 11px;
-	left: 293px;
-}
-#terms:hover,
-#terms:active {
-  background-color: #fff; /* fallback */
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; /* fallback */
-  border-color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-
-#About {
-	font-weight: bold;
-	position: absolute;
-	top: 102px;
-	display: inline-block;
-	width: 100px;
-	padding: 8px;
-	color: #333333;
-	border: 3px solid #333333;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	-webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
-	transition: background-color 0.2s ease-out,
-              border-color 0.2s ease-out;
-	height: 11px;
-	left: 153px;
-}
-#About:hover,
-#About:active {
-  background-color: #fff; /* fallback */
-  background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; /* fallback */
-  border-color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
 
 #logo h1 {
 	position: absolute;
 	border: 0;
-	width: 238px;
-	height: 60px;
+	width: 400px;
+	height: 300px;
 	margin: 0;
 	padding: 0;
 	background: url(../img/Logo.png) no-repeat 0 0;
@@ -171,12 +29,14 @@
 	top: 24px;
 	left: 19px;
 }
- 
+
+
 #logo h1 a {
  display: block;
  height: 60px;
  text-indent: -9999px; 
 }
+
 
 #maincontainer{
 	position: absolute;
