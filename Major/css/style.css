@@ -1,52 +1,142 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*
-#topbar{
-	position: absolute;
-	left: -1px;
-	top: 1px;
-	width: 1440px;
-	height: 30px;
-	background: url(../img/topbrnobuttons.png);
-	z-index: 100;
-}
- */
- 
 
+/*#topbar{
+position:absolute;
+width:1440px;
+height:60px;
+background:url(../img/topbar.png);
+z-index: 98;
+left: 0px;
+top: 1px;
+}*/
+	
 
-
-
-#logo h1 {
+ #logo{
 	position: absolute;
 	border: 0;
-	width: 400px;
-	height: 300px;
+	width: 370px;
+	height: 60px;
 	margin: 0;
 	padding: 0;
 	background: url(../img/Logo.png) no-repeat 0 0;
-	z-index: 99;
-	top: 24px;
-	left: 19px;
+	z-index: 130;
+	top: 10px;
+	left: 498px;
 }
-
 
 #logo h1 a {
  display: block;
  height: 60px;
  text-indent: -9999px; 
 }
+ 
+/*#navbar{
+	position: fixed;
+	background: url(../img/navbar.png);
+	width: 1440px;
+	height: 80px;
+	z-index: 98;
+	left: 0px;
+	top: 0px;
+}
+	*/
+ 
 
+
+#dadhats {
+	position: absolute;
+	width: 575px;
+	height: 390px;
+	background: url(../img/dadhats.png);
+	left: 82px;
+	top: 307px;
+}
+
+#outwear {
+	position: absolute;
+	width: 575px;
+	height: 390px;
+	background: url(../img/outwear.png);
+	left: 789px;
+	top: 307px;
+}
+
+#beanie {
+	position: absolute;
+	width: 575px;
+	height: 390px;
+	background: url(../img/beanies-hp-banner.jpg);
+	left: 455px;
+	top: 776px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration:none;
+  z-index:101;
+ width: 75%;
+position: absolute;
+left: 50%;
+top:77px;
+margin-left: -37.5%;
+  
+}
+nav li {
+  display: inline-block;
+  margin: 0 5px;
+  transition: all 0.3s;
+}
+nav a {
+  display: block;
+  border:2px solid #000000;
+  
+  color:#ffffff;
+  transition: all 0.3s;
+   text-decoration:none;
+   font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+   
+}
+nav a:hover {
+  color: #808080;
+}
+nav span {
+  display: block;
+}
+
+@media all and (min-width: 690px) {
+  nav li {
+    margin: 0;
+    transform: skewX(-10deg);
+  }
+  nav a {
+    padding: 15px 25px;
+   color:#ffffff;
+    background:rgba(51,68,79,0.6);
+	
+  }
+  nav a:hover {
+    color: #fff;
+    background-color: #33444f;
+	border: 2px solid #3F434A ;
+  }
+  nav span {
+    transform: skewX(10deg);
+  }
 
 #maincontainer{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	bottom: 5px;
+	bottom: -4px;
 	background-repeat: no-repeat;
 	width: 1440px;
-	height: 900px;
+	height: 1440px;
 	background: url(../img/bg.png);
-	z-index:-1;
+	z-index: -1;
 	
 }
