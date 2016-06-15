@@ -2,6 +2,57 @@
 /* CSS Document */
 
 
+
+body {
+   margin: 0;
+   padding: 0;
+   background: #EEE;
+   
+   font: 10px/13px 'Lucida Sans',sans-serif;
+}
+.wrap {
+	position:relative;
+   overflow: hidden;
+   margin: 10px;
+top:60px;
+}
+.box {
+   float: left;
+   position: relative;
+   width: 20%;
+   padding-bottom: 20%;
+}
+.boxInner {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+.boxInner .titleBox {
+	position: absolute;
+	bottom: 0;
+	left: -5px;
+	right: 0;
+	margin-bottom: -50px;
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 0;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -12,7 +63,7 @@ nav ul {
   width: 75%;
   position: absolute;
   left: 50%;
-  top:70px;
+  top:10px;
   margin-left: -37.5%;
 }
 
@@ -45,8 +96,7 @@ nav span {
   nav a {
     padding: 10px 20px;
    color:#ffffff;
-    background:rgba(51,68,79,0.6);
-	
+   background:rgba(132,132,132,0.6)
   }
   nav a:hover {
     color: #fff;
@@ -56,70 +106,6 @@ nav span {
   nav span {
     transform: skewX(10deg);
   }
-	
-
- #logo{
-	 display:block;
-	position: absolute;
-	height:65px;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	background: url(../img/Logo.png) no-repeat 0 0;
-	z-index: 130;
-	width: 370px;
-  left: 535px;
-top: -13px;
-}
-
-#logo h1 a {
- display: block;
- height: 60px;
- text-indent: -9999px; 
-}
- 
-/*#navbar{
-	position: fixed;
-	background: url(../img/navbar.png);
-	width: 1440px;
-	height: 80px;
-	z-index: 98;
-	left: 0px;
-	top: 0px;
-}*/
-	
- 
-
-
-#dadhats {
-	position: absolute;
-	width: 575px;
-	height: 390px;
-	background: url(../img/dadhats.png);
-	left: 115px;
-	top: 150px;
-}
-
-#outwear {
-	position: absolute;
-	width: 575px;
-	height: 390px;
-	background: url(../img/outwear.png);
-	left: 733px;
-	top: 150px;
-}
-
-#beanie {
-	position: absolute;
-	width: 575px;
-	height: 390px;
-	background: url(../img/beanies-hp-banner.jpg);
-	left: 455px;
-	top: 560px;
-}
-
-
-
 #maincontainer{
 	position: absolute;
 	top: 0px;
